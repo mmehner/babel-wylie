@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021/Arch Linux)  (format=lualatex 2022.1.9)  4 FEB 2022 09:47
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021/Arch Linux)  (format=lualatex 2022.1.9)  9 FEB 2022 12:57
  restricted system commands enabled.
 **example.tex
 (./example.tex
@@ -489,18 +489,18 @@ Overfull \hbox (0.69717pt too wide) in paragraph at lines 29--32
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./example.aux))
 
 Here is how much of LuaTeX's memory you used:
- 7158 strings out of 477875
+ 7159 strings out of 477875
  100000,953878 words of node,token memory allocated
- 6207 words of node memory still in use:
-   4 hlist, 1 vlist, 1 rule, 96 glue, 3 kern, 721 glyph, 29 attribute, 52 glue_s
-pec, 16 attribute_list, 1 write nodes
-   avail lists: 2:146,3:236,4:1,5:25,6:22,7:958,9:70,11:3
- 27637 multiletter control sequences out of 65536+600000
+ 7698 words of node memory still in use:
+   4 hlist, 1 vlist, 1 rule, 126 glue, 3 kern, 904 glyph, 29 attribute, 52 glue_
+spec, 16 attribute_list, 1 write nodes
+   avail lists: 2:146,3:328,4:8,5:25,6:22,7:1182,9:72,10:7,11:3
+ 27638 multiletter control sequences out of 65536+600000
  23 fonts using 6140455 bytes
  122i,7n,113p,10611b,453s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/shar
 e/fonts/TTF/TibMachUni-1.901b.ttf>
-Output written on example.pdf (1 page, 31980 bytes).
+Output written on example.pdf (1 page, 32023 bytes).
 
 PDF statistics: 22 PDF objects out of 1000 (max. 8388607)
  12 compressed objects within 1 object stream

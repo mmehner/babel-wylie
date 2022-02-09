@@ -7,24 +7,17 @@
 }
 
 % whitespace: between syllables to "-" + no penalty for line breaks
-\babelprehyphenation{wylie}{([^./])|([^aiueo])}{
+\babelprehyphenation{wylie}{([^../])|([^aiueo])}{
   string = {1}-,
   remove,
   { insert, penalty = 0 },
   string = {2},
 }
 
-\babelprehyphenation{wylie}{([^./])|([aiueo])}{
+\babelprehyphenation{wylie}{([^../])|([aiueo])}{
   string = {1},
   remove,
   string = -{2},
-}
-
-\babelprehyphenation{wylie}{([^./])|(.)}{
-  string = {1}-,
-  remove,
-  { insert, penalty = 0 },
-  string = {2},
 }
 
 % superscript + base + ( subscript +) vowel
@@ -529,17 +522,17 @@
   string = འ,}
 
 % initial vowels
-\babelprehyphenation{wylie}{[|-]a}{
+\babelprehyphenation{wylie}{[|-./]a}{
   {}, { insert, penalty = 0 }, string = ཨ,}
-\babelprehyphenation{wylie}{[|-]i}{
+\babelprehyphenation{wylie}{[|-./]i}{
   {}, { insert, penalty = 0 }, string = ཨི,}
-\babelprehyphenation{wylie}{[|-]u}{
+\babelprehyphenation{wylie}{[|-./]u}{
   {}, { insert, penalty = 0 }, string = ཨུ,}
 
-\babelprehyphenation{wylie}{[|-]e}{
+\babelprehyphenation{wylie}{[|-./]e}{
   {}, { insert, penalty = 0 }, string = ཨེ,}
 
-\babelprehyphenation{wylie}{[|-]o}{
+\babelprehyphenation{wylie}{[|-\./]o}{
   {}, { insert, penalty = 0 }, string = ཨོ,}
 
 % syllabic vowls
